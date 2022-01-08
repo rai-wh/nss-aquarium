@@ -1,12 +1,119 @@
 .pageHeader {
 	text-align: center;
+	font-size: xx-large;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 40px;
 }
-.shop {
-	flex-basis: 32%;
-	border: 1px dotted black;
+
+.nav {
+	background-color: #71777c;
+	overflow: hidden;
+	padding: 1.5em;
+	font-size: 20px;
+	text-indent: 200px;
 }
-.list {
+
+body {background-color: #74f7db;}
+
+.main {
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.process {
+	width: 100%;
+	text-align: right;
+	display: block;
+
+}
+
+.fish {
+	order: 0;
+	text-align: left;
+}
+
+.fishies {
+	padding: 20px;
+}
+
+.salmonpic {
+	width: 100px;
+	height: 50px;
+	padding: 10px;
+}
+
+.salmonpic img {
+	padding: 10px;
+	width: 100%;
+	height: auto;
+}
+
+.catfishpic {
+	width: 100px;
+	height: 50px;
+	padding: 10px;
+}
+
+.catfishpic img {
+	padding: 10px;
+	width: 100%;
+	height: auto;
+}
+
+.basspic {
+	width: 100px;
+	height: 50px;
+	padding: 10px;
+}
+
+.basspic img {
+	padding: 10px;
+	width: 100%;
+	height: auto;
+}
+
+.troutpic {
+	width: 100px;
+	height: 50px;
+	padding: 10px;
+}
+
+.troutpic img {
+	padding: 10px;
+	width: 100%;
+	height: auto;
+}
+
+.locations {
+	order: 1;
+	text-align: center;
+}
+
+.process {
+	position: fixed;
+	bottom: 500px;
+	margin-top: -300px;
+	border-right: 10px inset #282929;
+	width: calc(100% - 25px);
+}
+
+.tips {
+	margin-top: 100px;
+	padding: 10px;
+	text-align: center;
+}
+
+.home {
+	padding: 10em;
+}
+
+.soon {
+	padding: 10em;
+}
+
+.alsosoon {
+	padding: 10em;
 }
