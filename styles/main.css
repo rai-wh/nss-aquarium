@@ -94,7 +94,7 @@ body {background-color: #74f7db;}
 
 .process {
 	position: fixed;
-	bottom: 500px;
+	bottom: 200px;
 	margin-top: -300px;
 	border-right: 10px inset #282929;
 	width: calc(100% - 25px);
