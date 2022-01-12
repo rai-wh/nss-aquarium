@@ -19,7 +19,7 @@ const database = {
             img: "https://files.osgnetworks.tv/14/files/2018/04/Scott-B-pond-bass.jpg",
             food: "Their diet consists of leeches, insects, baitfish, and frogs",
             size: "Bass are usually sized around 15.7 inches",
-            location: "Martin found these Bass in North Carolina and Florida, as well as Mississippi"
+            location: "These Bass were found in North Carolina and Florida."
         },
         {
             name: "Trout",
