@@ -8,10 +8,10 @@ export const AreaList = () => {
 
     let htmlString = `<article class="location">`
 
-    htmlString += '<h2 class="quotes">Important quotes!</h2>'
-    htmlString += '<p>“Fishing in a place is a meditation on the rhythm of a tide, a season, the arc of a year, and the seasons of life.“ - Carl Safina</p>'
-    htmlString += '<p>“Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime.“ - Anne Ritchie</p>'
-
+    htmlString += '<p class="fishquotes">“Fishing in a place is a meditation on the rhythm of a tide, a season, the arc of a year, and the seasons of life.“ - Carl Safina</p>'
+    htmlString += '<p class="fishquotes">“Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime.“ - Anne Ritchie</p>'
+    htmlString += '<p class="fishquotes">"The charm of fishing is that it is the pursuit of what is elusive but attainable, a perpetual series of occasions for hope." - John Buchan</p>'
+    
     htmlString += '<h2 class="loc__banner">Locations</h2>'
 
     // Create HTNL representations of each fish here

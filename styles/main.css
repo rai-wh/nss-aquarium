@@ -101,7 +101,7 @@ body {background-color: #77b1a6;}
 }
 
 .loc__banner {
-	margin-top: 70px;
+	margin-top: 20%;
 }
 
 .quotes {
@@ -158,7 +158,6 @@ body {background-color: #77b1a6;}
 }
 
 .process {
-	bottom: 500px;
 	margin-top: -30%;
 	border-right: 10px inset #282929;
 	width: calc(100% - 25px);
@@ -169,4 +168,9 @@ body {background-color: #77b1a6;}
 	margin-top: 10%;
 	margin-bottom: 2%;
 	text-align: center;
+}
+
+.location p {
+	margin-top: 12%;
+	font-size: 18px;
 }

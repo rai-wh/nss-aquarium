@@ -27,7 +27,15 @@ const database = {
             food: "They like to eat aquatic insects and other fish",
             size: "Trouts are around 16 inches long, usually.",
             location: "They were located in the Western half of USA"
+        },
+        {
+            name: "Tilapia",
+            img: "https://www.platinumlakemanagement.com/img/http/aHR0cDovL3d3dy5wbGF0aW51bWxha2VtYW5hZ2VtZW50LmNvbS9sZWdhY3kvd3AtY29udGVudC91cGxvYWRzLzIwMTYvMDMvdGlsYXBpYS1hbGdhZS1jb250cm9sLWNoYXJsb3R0ZS1uYy5qcGc=?w=900&q=80&s=79507a53def6edc84f400b2f269be36d",
+            food: "Tilapia like to eat algae and aquatic plants.",
+            size: "Tilapia grow to around 20 inches usually.",
+            location: "These fish were found in Florida and Texas."
         }
+        
     ]
 }
 
