@@ -158,19 +158,19 @@ body {background-color: #77b1a6;}
 }
 
 .process {
-	margin-top: -30%;
-	border-right: 10px inset #282929;
+	margin-top: -40%;
+	border-right: 8px inset #2f4141;
 	width: calc(100% - 25px);
 }
 
 .tips {
 	font-family: 'Mukta', sans-serif;
-	margin-top: 10%;
+	margin-top: 25%;
 	margin-bottom: 2%;
 	text-align: center;
 }
 
 .location p {
-	margin-top: 12%;
+	margin-top: 8%;
 	font-size: 18px;
 }
