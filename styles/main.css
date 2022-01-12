@@ -66,6 +66,14 @@
 	transition: all 0.3s ease 0s;
 }
 
+.fish__info {
+	text-align: left;
+}
+
+.martin__locations {
+	padding: 100px;
+}
+
 .info:hover {
 	color: #008890;
 }
@@ -91,9 +99,11 @@ body {background-color: #77b1a6;}
 .locations {
 	font-family: 'Mukta', sans-serif;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	order: 1;
 	text-align: center;
+	padding: 50px;
+	margin-left: auto;
 }
 
 .info > * {
@@ -134,8 +144,8 @@ body {background-color: #77b1a6;}
 }
 
 .process {
-	bottom: 500px;
-	margin-top: -700px;
+	bottom: 700px;
+	margin-top: -200px;
 	border-right: 10px inset #282929;
 	width: calc(100% - 25px);
 }

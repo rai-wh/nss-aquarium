@@ -16,10 +16,12 @@ export const FishList = () => {
             <div class="fish__name">${fish.name}</div>
             <div><img  class="pics image--card" src="${fish.img}" /></div>
             <details>
-            <summary class="info">Fish Info</summary>
-            <div class="fish__size">${fish.size}</div>
-            <div class="fish__location">${fish.location}</div>
-            <div class="fish__food">${fish.food}</div>
+                <summary class="info">Fish Info</summary>
+                    <ul class="fish__info">
+                        <li><div class="fish__size">${fish.size}</div></li>
+                        <li><div class="fish__location">${fish.location}</div></li>
+                        <li><div class="fish__food">${fish.food}</div></li>
+                    </ul>
             </details>
         </section>
 `
