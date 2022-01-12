@@ -1,19 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
 .pageHeader {
 	text-align: center;
-	font-size: xx-large;
-	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
 	padding: 40px;
 }
 
-.nav {
-	background-color: #71777c;
-	overflow: hidden;
-	padding: 1.5em;
-	font-size: 20px;
-	text-indent: 200px;
+.navbar{
+	box-sizing: border-box;
+	background-color: #24252A;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;;
+	padding: 15px 10%;
 }
 
-body {background-color: #74f7db;}
+.sitelogo {
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+}
+
+.allFish {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.nav__links {
+	list-style: none;
+}
+
+.nav__links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+	color: #008890;
+}
+
+.nav li, a {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+.info {
+	background-color: #bec2c0;
+	text-transform: uppercase;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.info:hover {
+	color: #008890;
+}
+.link {
+	list-style: none;
+}
+
+.link li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+body {background-color: #77b1a6;}
 
 .main {
 	display: flex;
@@ -21,6 +86,18 @@ body {background-color: #74f7db;}
 	flex-wrap: wrap;
 	justify-content: center;
 	justify-content: space-around;
+}
+
+.locations {
+	font-family: 'Mukta', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	order: 1;
+	text-align: center;
+}
+
+.info > * {
+	display: inline;
 }
 
 .process {
@@ -37,83 +114,34 @@ body {background-color: #74f7db;}
 
 .fishies {
 	padding: 20px;
-}
-
-.salmonpic {
-	width: 100px;
-	height: 50px;
-	padding: 10px;
-}
-
-.salmonpic img {
-	padding: 10px;
-	width: 100%;
-	height: auto;
-}
-
-.catfishpic {
-	width: 100px;
-	height: 50px;
-	padding: 10px;
-}
-
-.catfishpic img {
-	padding: 10px;
-	width: 100%;
-	height: auto;
-}
-
-.basspic {
-	width: 100px;
-	height: 50px;
-	padding: 10px;
-}
-
-.basspic img {
-	padding: 10px;
-	width: 100%;
-	height: auto;
-}
-
-.troutpic {
-	width: 100px;
-	height: 50px;
-	padding: 10px;
-}
-
-.troutpic img {
-	padding: 10px;
-	width: 100%;
-	height: auto;
-}
-
-.locations {
-	order: 1;
 	text-align: center;
 }
 
+.fish__name {
+	font-size: 30px;
+	font-family: 'Mukta', sans-serif;
+	text-align: center;
+}
+
+.pics {
+	display: block;
+	height: 150px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	object-fit: cover;
+}
+
 .process {
-	position: fixed;
-	bottom: 200px;
-	margin-top: -300px;
+	bottom: 500px;
+	margin-top: -700px;
 	border-right: 10px inset #282929;
 	width: calc(100% - 25px);
 }
 
 .tips {
-	margin-top: 100px;
+	margin-top: 500px;
 	padding: 10px;
 	text-align: center;
-}
-
-.home {
-	padding: 10em;
-}
-
-.soon {
-	padding: 10em;
-}
-
-.alsosoon {
-	padding: 10em;
 }
